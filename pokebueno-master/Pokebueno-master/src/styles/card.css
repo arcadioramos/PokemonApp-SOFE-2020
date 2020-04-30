@@ -1,0 +1,57 @@
+/*Pokemons cards*/
+
+.card-container {
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  background-color: #393e46;
+  border-radius: 8px;
+  color: white;
+}
+
+.card-image {
+  border-radius: 8px 8px 0 0;
+  width: 100%;
+  background-color: white;
+}
+
+.pokemon-image {
+  padding: 1rem;
+  text-align: center;
+}
+
+.card-text {
+  text-align: center;
+  padding: 1em;
+}
+
+.card-button {
+  padding: 1em;
+}
+
+.btn-simple {
+  padding: 0.5em 1em;
+  border-radius: 8px;
+  background-color: #00adb5;
+  color: white;
+  border-style: none;
+  box-shadow: 0px 2px 2px 0px black;
+}
+
+.btn-simple:hover {
+  background-color: #007c82;
+}
+
+.title {
+  font-weight: bold;
+}
+.card-title {
+  font-weight: bold;
+  color: black;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.to-upper-case {
+  text-transform: capitalize;
+}

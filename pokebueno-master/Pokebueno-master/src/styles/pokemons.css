@@ -1,0 +1,55 @@
+/*Pokemons container*/
+
+.container {
+  padding: 2em 16em;
+  min-height: 100%;
+}
+
+.prevnext {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.spacer {
+  justify-content: space-between;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* repeat(3, minmax(4em, 10fr)); */
+  grid-gap: 2em;
+}
+
+.pokemons-title {
+  padding-bottom: 0.5em;
+  font-size: 4vw;
+}
+
+/*Tablet or Landscape mobile*/
+@media screen and (max-width: 800px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* repeat(3, minmax(4em, 10fr)); */
+    grid-gap: 2em;
+  }
+
+  .container {
+    padding-left: 8em;
+    padding-right: 8em;
+  }
+}
+
+/*Mobile*/
+@media screen and (max-width: 600px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); /* repeat(3, minmax(4em, 10fr)); */
+    grid-gap: 1em;
+    width: 100%;
+  }
+
+  .container {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+}

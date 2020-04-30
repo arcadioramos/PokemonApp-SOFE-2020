@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #eeeeee;
+  height: 100vh;
+}
+
+#root {
+  height: 100vh;
+}
+
+.no-display {
+  display: none;
+}
+
+/*Horizontal Stack default vertically centered*/
+.hstack {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+/*Vertical Stack default horizontally centered*/
+.vstack {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.space-around {
+  justify-content: space-around;
+}
+
+/*Fills the space with the container that uses this modifier*/
+.stretch {
+  align-items: stretch;
+}
+/* If hstack => left alignment, if vstack => top alignment */
+.start {
+  justify-content: flex-start;
+}
+/* If hstack => right alignment, if vstack => bottom alignment */
+.end {
+  justify-content: flex-end;
+}
+
+.pill {
+  border-radius: 1rem;
+}
+
+.tag {
+  border-radius: 0.5rem;
+  padding: 0.2em 0.5em;
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+/*BG Colors*/
+.bg-white {
+  background-color: white;
+}
+
+/*Special padding cases*/
+
+.padding-16 {
+  padding: 1em;
+}
+
+.padding-8 {
+  padding: 0.5em;
+}
+
+.img-64 {
+  width: 4em;
+  height: 4em;
+}
+
+.img-128 {
+  width: 8em;
+  height: 8em;
+}
+
+.img-192 {
+  width: 12em;
+  height: 12em;
+}
+
+.img-256 {
+  width: 16em;
+  height: 16em;
+}

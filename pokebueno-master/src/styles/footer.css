@@ -1,0 +1,11 @@
+.footer {
+  justify-content: space-between !important;
+  background-color: #222831;
+  box-shadow: 0em -0.1em 8px 0px black;
+  color: white;
+  width: 100%;
+}
+
+.nearsoft-logo {
+  height: 2em;
+}
